@@ -20,11 +20,9 @@
             position: fixed;
             right: 0;
             width: 80px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            top: 0;
-            bottom: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            
         }
         #quick li{
             width: 200px;
@@ -49,7 +47,7 @@
             transition: 0.5s;
         }
         #quick li:hover a{
-            margin-left: -120px;
+            transform: translateX(-50%)
         }
         #quick li i{
             width: 80px;
